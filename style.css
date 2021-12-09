@@ -1,6 +1,9 @@
-body{
-    background-color: black;
-    color: whitesmoke;
+*:not(h1){
+    background: rgb(21,21,21);
+    font-size: 14px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, HelveticaNeue-Light, "Segoe UI", "Helvetica Neue", Helvetica, Raleway, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", -apple-system, BlinkMacSystemFont, HelveticaNeue-Light, "Segoe UI", "Helvetica Neue", Helvetica, Raleway, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(240,240,240);
+    word-break: break-word;
 }
 .principal{
     display: grid;
@@ -28,4 +31,10 @@ body{
 .advert{
     position: absolute;
     float: bottom left;
+}
+.boite_de_texte{
+    border-style:none;
+    border-bottom-style: outset;
+    border-color: crimson;
+    padding: 20px;
 }
