@@ -25,3 +25,7 @@ body{
 .link:visited{
     color: dimgray;
 }
+.advert{
+    position: absolute;
+    float: bottom left;
+}
