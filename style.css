@@ -38,3 +38,6 @@
     border-color: crimson;
     padding: 20px;
 }
+.list{
+    list-style-type: disc;
+}
