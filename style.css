@@ -13,7 +13,15 @@ body{
     justify-content: space-between;
     margin-left: 10%;
 }
-.option{
-    
+.option:link{
+    color: white;
 }
-
+.option:hover{
+    color: crimson;
+}
+.option:active{
+    color: darkred;
+}
+.option:visited{
+    color: dimgray;
+}
