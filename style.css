@@ -76,3 +76,11 @@ li:nth-child(even){
 .image{
     height:25vh;
 }
+@media screen and (max-height:500px){
+    .image{
+        display: none;
+    }
+}    
+
+
+
