@@ -12,7 +12,7 @@
     grid-template-columns: 2fr 8fr;
 }
 .menu_de_gauche{
-    display: grid;
+    display: flex;
     height: 200px;
     grid-gap: 10px;
     justify-content: space-between;
