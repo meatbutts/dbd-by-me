@@ -73,3 +73,6 @@ li:nth-child(even){
 .boite_de_texte:nth-child(even){
     color: crimson;
 }
+.image{
+    height:25vh;
+}
