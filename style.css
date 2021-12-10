@@ -1,3 +1,5 @@
+/*Projet: Fichier CSS pour la PFI */
+/*Nom: Jacen Jean */
 *:not(h1){
     background: rgb(21,21,21);
     font-size: 14px;
@@ -16,16 +18,16 @@
     justify-content: space-between;
     margin-left: 10%;
 }
-.link:link{
+a:link{
     color: white;
 }
-.link:hover{
+a:hover{
     color: crimson;
 }
-.link:active{
+a:active{
     color: darkred;
 }
-.link:visited{
+a:visited{
     color: dimgray;
 }
 .advert{
